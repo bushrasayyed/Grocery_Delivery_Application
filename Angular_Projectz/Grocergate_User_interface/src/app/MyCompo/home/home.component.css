@@ -1,0 +1,11 @@
+/* CSS for the logout button */
+.logout-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #f00; /* Change the background color as desired */
+  color: #fff; /* Change the text color as desired */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.profile-page-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+  }
+  
+  .profile-page-container h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 0 0 10px #00FF00, 0 0 20px #6767c0;
+    text-align: center;
+  }
+  
+  .profile-page-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .profile-page-container table th,
+  .profile-page-container table td {
+    padding: 25px;
+    border: 5px solid hsl(216, 90%, 12%);
+    font: size 30px;
+
+  }
+  
+  .profile-page-container table th {
+    text-align: left;
+  }
+  
+  .profile-page-container table td {
+    text-align: left;
+    color:#080850
+  }
+  
+  .profile-page-container .update-button {
+    background-color: #008000;
+    color: #ffffff;
+    padding: 10px;
+    border: 1px solid #008000;
+    cursor: pointer;
+  }
+  

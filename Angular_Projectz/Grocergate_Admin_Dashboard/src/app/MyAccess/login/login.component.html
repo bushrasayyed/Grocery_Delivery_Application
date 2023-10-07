@@ -1,0 +1,27 @@
+<section class="container forms">
+    <div class="form login">
+        <div class="form-content">
+            <header>Welcome Back!<br> Admin👨🏻‍💻</header>
+            <h2>Login with your Credentials</h2>
+            <form #loginForm="ngForm" (ngSubmit)="Login(loginForm)">
+                <div class="field input-field">
+                    <label for="email">Email</label>
+                    <input type="email" [(ngModel)]="email" name="email" class="form-control" id="email"
+                        placeholder="Enter your Email" required>
+                </div>
+                <div class="field input-field">
+                    <label for="password">Password</label>
+                    <input type="password" [(ngModel)]="password" name="password" class="form-control"
+                        id="password" placeholder="Please Enter your Password" required>
+                </div>
+                <button type="submit" class="btn btn-primary" [disabled]="!loginForm.form.valid">Login</button>
+            </form>
+
+            
+
+            <div class="line"></div>
+
+            
+        </div>
+    </div>
+</section>

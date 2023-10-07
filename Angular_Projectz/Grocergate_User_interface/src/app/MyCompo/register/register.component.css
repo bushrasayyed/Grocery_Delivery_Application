@@ -1,0 +1,117 @@
+/* Signup form */
+.signup {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #94bcf7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup .form-content {
+    padding: 20px;
+  }
+  
+  .signup header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .signup form {
+    margin-top: 20px;
+  }
+  
+  .signup .field {
+    margin-bottom: 10px;
+  }
+  
+  .signup .field label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .signup .field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup .field input:focus {
+    border-color: #000;
+  }
+  
+  .signup .field .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .signup button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup button:hover {
+    background-color: #111;
+  }
+  
+  .signup .form-link {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup .form-link span {
+    font-size: 12px;
+  }
+  
+  .signup .form-link a {
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .signup .line {
+    margin-top: 20px;
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+  }
+  
+  .signup .media-options {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup .media-options a {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup .media-options a:hover {
+    background-color: #ccc;
+  }
+  
+  .signup .media-options .google {
+    border-color: #03030391;
+    color: #130301c5;
+  }
+  
+  .signup .media-options .google img {
+    margin-right: 10px;
+  }
+  .signup .media-options .google img {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+  }

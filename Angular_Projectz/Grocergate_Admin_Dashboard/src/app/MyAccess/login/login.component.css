@@ -1,0 +1,99 @@
+/* CSS for admin login page */
+
+.container {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to right, #f0f8ff, #faebd7, #ffead4, #ffe8c5, #fff5ee);
+
+
+  }
+  
+
+
+
+.forms {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #333;
+}
+
+.form-content {
+  text-align: center;
+  color: #fff;
+}
+
+.form-content header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.form-content h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.form-content form {
+  margin-top: 20px;
+}
+
+.form-content .field {
+  margin-bottom: 10px;
+}
+
+.form-content .field label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-content .field input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.form-content .field input:focus {
+  border: 1px solid #428bca;
+}
+
+.form-content .field.error input {
+  border: 1px solid red;
+}
+
+.form-content .field.error label {
+  color: red;
+}
+
+.form-content button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #428bca;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #428bca;
+  cursor: pointer;
+}
+
+.form-content button:hover {
+  background-color: #337ab7;
+}
+
